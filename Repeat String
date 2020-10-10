@@ -1,0 +1,6 @@
+m = input()
+n = int(input())
+
+def string ():
+    return str(m) * n
+print(string()
