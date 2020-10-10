@@ -1,0 +1,26 @@
+a = int(input())
+b = int(input())
+c = int(input())
+def sum_numbers (a, b,c):
+    return (a + b) - c
+print(sum_numbers(a,b,c))
+
+
+
+##a = int(input())
+##b = int(input())
+#c = int(input())
+
+#def sum (a,b):
+    #result = a + b
+    #return  result
+
+#def add (result,c):
+    #return  result - c
+
+
+#summa = sum(a,b)
+#result = add(summa, c)
+
+#print(result)
+
