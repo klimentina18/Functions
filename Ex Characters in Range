@@ -1,0 +1,16 @@
+a = input()
+b = input()
+
+def new_table (a, b):
+    result = " "
+    for i in range (ord(a) + 1, ord(b)):
+        result += chr(i) + " "
+    return result
+print(new_table(a,b))
+
+
+#a = input()
+##b = input()
+
+#for i in range (ord(a) + 1, ord(b)):
+   # print(chr(i), end= " ")
