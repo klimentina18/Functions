@@ -1,0 +1,28 @@
+def odd_even (number):
+    odd = 0
+    even = 0
+    for i in number:
+        num = int(i)
+        if num % 2 == 0:
+            even += num
+        else:
+            odd += num
+    return f"Odd sum = {odd}, Even sum = {even}"
+number = input()
+print(odd_even(number))
+
+
+#number = input()
+
+#odd = []
+##even = []
+
+#for i in number:
+   ##num = int(i)
+   #if num % 2 == 0:
+        #even.append(num)
+    #else:
+        #odd.append(num)
+
+
+#print(f"Odd sum = {sum(odd)}, Even sum = {sum(even)}")
