@@ -1,0 +1,26 @@
+def palindrome(number):
+
+    is_palindrome = True
+
+    if number != number[::-1]:
+        is_palindrome = False
+    return is_palindrome
+
+
+command = input().split(", ")
+for number in command:
+    print(palindrome(number))
+    
+    
+  
+  
+  
+ #numbers_list = input().split(", ")
+
+#for i in numbers_list:
+    #if i != i[::-1]:
+        #is_valid = False
+    #else:
+        #is_valid = True
+
+    #print(is_valid)
