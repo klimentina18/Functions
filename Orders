@@ -1,0 +1,34 @@
+product = input()
+count = int(input())
+
+def total_price (product, count):
+    if product == "coffee":
+        return  count * 1.5
+    elif product == "water":
+        return  count * 1.0
+    elif product == "coke":
+        return  count * 1.4
+    elif product == "snacks":
+        return  count * 2.0
+
+print(f"{total_price(product, count):.2f}")
+
+
+
+#product = input()
+#count = int(input())
+
+#def total_price(product, count):
+   ## price = None
+   # if product == "coffee":
+       # price = 1.50
+    #elif product == "water":
+       #price = 1.00
+   # elif product == "coke":
+        #price = 1.40
+   #elif product == "snacks":
+        #price = 2.00
+
+   # if not  price == None:
+        #return price * count
+#print(f"{total_price(product,count):.2f}")
